@@ -3,19 +3,20 @@ import Home from './Home.jsx';
 import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 
+const backgroundStyle = {
+  backgroundImage: 'url(https://www.trios.com/uploads/2023/01/what-is-a-legal-assistant.jpg)',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  height: '100vh',
+  width: '100vw'
+};
+
 function App() {
   return (
-    <div className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column h-100" style={backgroundStyle}>
       <Navbar />
-      <div className="flex-grow-1">
-        <div className="container-fluid min-vh-100 d-flex flex-column justify-content-center py-5" style={{ 
-          backgroundImage: 'linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(https://vivi-realestate.com/wp-content/uploads/2022/03/abogados.jpg)', 
-          backgroundSize: 'cover', 
-          backgroundPosition: 'center' 
-        }}>
-          <Home />
-        </div>
-      </div>
+      <Home />
       <Footer className="mt-auto" />
     </div>
   );
