@@ -17,7 +17,7 @@ function Home() {
       <div className="row">
         <div className="col text-center">
           <h2 className="display-4 card-title text-white">S&S Legal</h2>
-          <p className="card-text text-white" Style={{backgroundColor: 'black'}}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p className="card-text text-white" style={{backgroundColor: 'black'}}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           <button type="button" className="btn btn-dark">Explore</button>
         </div>
       </div>
