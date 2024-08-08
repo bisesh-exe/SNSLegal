@@ -1,7 +1,7 @@
 .home1 {
   position: relative;
   padding: 0;
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
 
 .home1::before {
   content: '';
-  background-image: url('https://www.liveabout.com/thmb/rMFygdaKfPHAcjOblobIB7a82XM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/signing-a-contract-1045876492-f745107ada3345d7a0472f019b0cabeb.jpg');
+  background-image: url('https://www.crestproperty.net.au/wp-content/uploads/2021/05/Mount_Waverley_Townhouses_1.jpg');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -113,3 +113,59 @@
   font-size: 1em;
   line-height: 1.5;
 }
+
+
+/* Home 3 */
+/* Global Styles */
+
+.home3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.home3-h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Two Column Layout */
+
+.text3 {
+  flex-basis: 40%;
+  margin-right: 20px;
+}
+
+.text4 {
+  flex-basis: 60%;
+}
+
+/* Image Styles */
+
+.sachinsir {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+  .home3 {
+    flex-direction: column;
+  }
+  .text3, .text4 {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+  .text4 {
+    margin-top: 20px;
+  }
+}
+
+
+
+
