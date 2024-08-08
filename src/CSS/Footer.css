@@ -1,0 +1,29 @@
+.footer {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-column {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 10px;
+}
+
+.footer-column h2 {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
